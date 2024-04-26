@@ -13,7 +13,7 @@ Upon receiving user speech, the system performs speech-to-text conversion, conve
 
 ### Usage
 *The pipeline is tested in Python 3.11 version*
-###### Required Libraries/Tools
+##### Required Libraries/Tools
 1) Speech Recognition Module - To recognize the input audio from the user and convert it to text
    ```
    pip install SpeechRecognition
