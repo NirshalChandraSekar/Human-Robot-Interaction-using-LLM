@@ -11,11 +11,23 @@ Watch the full video here: https://drive.google.com/file/d/1xd6yHDAU-aS1a9mcW1AZ
 ### Methodology
 Upon receiving user speech, the system performs speech-to-text conversion, converting the audio into text format which is then processed by a Large Language Model (LLM) to understand the user's semantic intent and sentiment. Based on this, the LLM generates an empathetic response in text format, which is then converted back to speech output to the user. Simultaneously, in a virtual environment, a KUKA robot offers an object aimed at improving the user's sentiment, with the LLM suggesting appropriate virtual objects from the simulated environment. The LLM continuously tracks and adapts to the user's changing sentiment levels throughout the interaction. The system is integrated within Python 3.11, utilizing speech recognition libraries, the GPT-3.5 Turbo LLM, and the PyBullet simulation tool for controlling/animating the KUKA robot.
 
-### Code
+### Usage
 *The pipeline is tested in Python 3.11 version*
 #### Required Libraries/Tools
 1) Speech Recognition Module - To recognize the input audio from the user and convert it to text
    ```
    pip install SpeechRecognition
    ```
-
+2) pyttsx3 Module - To convert the output text into speech to the user
+   ```
+   pip install pyttsx3
+   ```
+3) PyBullet - Physics simulation package
+   ```
+   pip install pybullet
+   ```
+4) Guidance - For controlling langiage models
+   ```
+   pip install guidance
+   ```
+-------------------------------------------
