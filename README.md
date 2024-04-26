@@ -30,8 +30,10 @@ Upon receiving user speech, the system performs speech-to-text conversion, conve
    ```
    pip install guidance
    ```
-Clone this repo on your local directory, and install all the above mentioned packages. 
+--> Clone this repo on your local directory, and install all the above mentioned packages. 
 
-Navigate to the "llm.py" file and set your OpenAI API key in line 8.
+--> Navigate to the "llm.py" file and set your OpenAI API key in line 8.
+
+--> Run the main.py file on your terminal. Input '0' to start your conversation with the robot, and when you want to stop the conversation just say "STOP" out loud, and the simulation will rest and wait for you to input 0 again to continue your next conversation.
 
 
