@@ -38,4 +38,9 @@ Upon receiving user speech, the system performs speech-to-text conversion, conve
 
 --> Run the main.py file on your terminal. Input '0' to start your conversation with the robot, and when you want to stop the conversation just say "STOP" out loud, and the simulation will rest and wait for you to input 0 again to continue your next conversation.
 
+### Evaluation
+For evaluations, we enabled the LLM to track and store the user's sentiment on a scale of 0 to 10 for each prompt, with 0 being extremely negative and 10 being extremely positive. When the user stops the conversation, we return this tracked sentiments ovre the conversation as a list and plot them to see how the user's sentiment is being changed over the period of the conversation. The goal is to try and flip the sentiment from a negative state to a positve state if the user is initially in a negative mood, and if the person is initially in a positive mood, then the llm should try and maintain this positivity of the user during the conversation.
+
+Sample plots of sentiment over different conevrsations:
+<img src="">
 
