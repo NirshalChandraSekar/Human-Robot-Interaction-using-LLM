@@ -30,4 +30,8 @@ Upon receiving user speech, the system performs speech-to-text conversion, conve
    ```
    pip install guidance
    ```
--------------------------------------------
+Clone this repo on your local directory, and install all the above mentioned packages. 
+
+Navigate to the "llm.py" file and set your OpenAI API key in line 8.
+
+
